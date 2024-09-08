@@ -1,0 +1,110 @@
+.dash-nav{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 40px; */
+    /* height: 7vh; */
+    /* margin-top: 10px; */
+}
+.dash-logo{
+display: flex;
+align-items: center;
+font-size: 25px;
+color: aliceblue;
+width: 100px;
+}
+.dash-logo span{
+color: rgb(252, 19, 97);
+}   
+
+/* dashboard Tasks Toggler */
+.dash-tasks-togg{
+    display: flex;
+    height: 35px;
+    border-radius: 35px;
+    background-color: rgba(225, 225, 225, 0.928);
+}
+
+.dash-tog-btn{
+    width: 120px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.active-toggle{
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
+
+/* User Account */
+.user-account-name{
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    background-color: rgb(240, 240, 240,0.4);
+    height: 35px;
+
+}
+
+.user-img{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(84, 192, 255);
+}
+
+.user-name{
+    margin:0 10px;
+    font-weight: 500;
+}
+.user-img-state{
+    display: none;
+}
+
+@media screen and (max-width:850px) {
+    
+    .user-img-state{
+        display: block;
+        height: 35px;
+        width: 35px;
+        
+    }
+    .user-img-img{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: rgb(84, 192, 255);
+    }
+    .user-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .dash-logo{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width:500px) {
+    .dash-logo{
+        display: none;
+    }
+    .user-name{
+        display: none;
+    }
+    .dash-nav{
+        /* padding:0 10px; */
+    }
+}
