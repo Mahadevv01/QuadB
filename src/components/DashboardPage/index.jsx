@@ -29,7 +29,7 @@ const DashboardPage = () => {
 
       try {
         // API call to fetch user profile using the token
-        const response = await axios.get("http://localhost:5000/api/profile", {
+        const response = await axios.get("https://quadbserver-mdzg.onrender.com/api/profile", {
           headers: {
             Authorization: `Bearer ${token}`,
           },

@@ -24,7 +24,7 @@ function App() {
       try {
         const token = localStorage.getItem("token");
         if (token && !userProfile) { // Only fetch if not already available
-          const response = await fetch("http://localhost:5000/api/profile", {
+          const response = await fetch("https://quadbserver-mdzg.onrender.com/api/profile", {
             headers: {
               Authorization: `Bearer ${token}`,
             },
