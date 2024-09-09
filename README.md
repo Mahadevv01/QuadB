@@ -26,7 +26,7 @@ The React ToDo App is a user-friendly task management application designed to he
 - **Pie Chart**: A pie chart visualization offers a visual representation of task distribution by category, improving user insight into their tasks.
 
 ## Hosted Link
-https://webguyashis-react-todo-project.netlify.app/
+quadb-nu.vercel.app
 
 ## Screenshots
 ### Desktop View
