@@ -30,7 +30,7 @@ quadb-nu.vercel.app
 
 ## Screenshots
 ### Desktop View
-![home](https://github.com/Mahadevv01/Todo-List-React-Project2/assets/126752768/5bfe363a-883a-4a4b-98c1-a0f416da7fb4)
+![home](https://github.com/webguyashis/Todo-List-React-Project2/assets/126752768/5bfe363a-883a-4a4b-98c1-a0f416da7fb4)
 
 ![dash](https://github.com/Mahadevv01/Todo-List-React-Project2/assets/126752768/39da033a-43da-4c63-b992-c7b7a9aab9c3)
 
