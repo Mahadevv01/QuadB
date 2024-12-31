@@ -7,8 +7,10 @@ The React ToDo App is a user-friendly task management application designed to he
 ## API For Dummy API Calls
  https://jsonplaceholder.typicode.com/todos
 
-## Screenshots:
+## Screenshots: 
+ ### 1. Home page:DashBoard
  ![Screenshot 2025-01-01 001723](https://github.com/user-attachments/assets/d4806c37-5b1b-4aec-9254-b501287fa8d5)
+ ### 2.Tasks
 ![Screenshot 2025-01-01 001627](https://github.com/user-attachments/assets/dca120db-1564-4452-85bc-8f4c9941e71f)
 
 
